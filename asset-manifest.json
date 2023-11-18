@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/juno_assignment/static/css/main.2aac9b6a.css",
+    "main.js": "/juno_assignment/static/js/main.bf0c52f3.js",
+    "index.html": "/juno_assignment/index.html",
+    "main.2aac9b6a.css.map": "/juno_assignment/static/css/main.2aac9b6a.css.map",
+    "main.bf0c52f3.js.map": "/juno_assignment/static/js/main.bf0c52f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aac9b6a.css",
+    "static/js/main.bf0c52f3.js"
+  ]
+}
