@@ -1,0 +1,91 @@
+.monitoring {
+  margin: 50px 0px 0px 30px;
+  height: 812px;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 30px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(228, 228, 228, 1);
+}
+.tabs p {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid rgba(70, 67, 238, 1);
+  color: rgba(70, 67, 238, 1);
+}
+.toggle {
+  display: flex;
+}
+
+.tabs .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(246, 216, 216, 1);
+  color: rgba(209, 59, 59, 1);
+  padding: 0px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  column-gap: 7px;
+}
+.btn p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.search-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(173, 173, 173, 1);
+  width: 370px;
+  height: 40px;
+  border: 1px solid rgba(228, 228, 228, 1);
+  border-radius: 9px;
+  padding: 5px 10px;
+}
+.search-flex input {
+  width: 100%;
+  font-family: "Inter";
+  font-size: 1.2rem;
+  border: none;
+}
+.search-flex input:focus {
+  outline: none;
+}
+.filter {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+.filter select {
+  width: 142px;
+  height: 40px;
+  background-color: rgba(245, 245, 245, 1);
+  border: none;
+  border-radius: 6px;
+  color: rgba(119, 118, 118, 1);
+  padding: 10px 15px;
+}
+@media (max-width:750px)
+{
+  .monitoring {
+    margin: 0px 0px 0px 5px;
+    width: 56rem;
+  }
+  
+}

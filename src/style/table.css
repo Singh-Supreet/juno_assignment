@@ -1,0 +1,82 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 9px;
+  color: rgba(5, 5, 5, 1);
+}
+th {
+  text-align: left;
+  color: rgba(5, 5, 5, 1);
+  font-size: 12px;
+
+}
+tr {
+  height: 48px;
+}
+td {
+  height: 72px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.headers {
+  background-color: rgba(245, 245, 245, 1);
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0px 30px;
+}
+.medium {
+  color: rgba(136, 103, 15, 1);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.medium div {
+  background-color: rgba(136, 103, 15, 1);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.low {
+  color: rgba(0, 101, 64, 1);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.low div {
+  background-color: rgba(0, 101, 64, 1);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.high {
+  color: rgba(125, 36, 36, 1);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.high div {
+  background-color: rgba(125, 36, 36, 1);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.user-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort {
+  display: flex;
+  justify-content: space-between;
+}
+.para{
+  border: 1px solid #ddd;
+}
